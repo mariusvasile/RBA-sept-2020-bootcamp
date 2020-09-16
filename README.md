@@ -1,12 +1,29 @@
-# RBA September Bootcamp
+# RBA September Bootcamp Coding Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Instructions for the Coding Challenge
+
+This coding challenge will be split into multiple objectives. Some of the objectives will be mandatory, whilst others will be bonus ones!
+
+### Mandatory steps
+
+- create feature branch with the following naming convention 'feature/your_name' & start making changes in your own branch
+- update **your** role in the table
+- change the order of the columns to be: ID, NAME, EMAIL, ROLE
+- align title in the center and have the following font: arial, sans-serif
+- align table content to the center, have the following font: "Trebuchet MS", Arial, Helvetica, sans-serif; have a solid border, make it displayable on all of the screen
+
+### Bonus steps:
+
+- add more tests around the content of the table
+- style row header to have the background colour of green, font color of white and consistent padding
+- implement function sort the table names alphabetically
+- write test for sort function
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `yarn start`
+### `yarn start` or `npm start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -14,12 +31,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `yarn test`
+### `yarn test` or `npm test`
 
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+### `yarn build` or `npm build`
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
